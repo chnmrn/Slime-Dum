@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f1da0b6abdb7d45aa4315eccab639b, type: 3}
+  m_Name: range_attack_animation
+  m_EditorClassIdentifier: 
+  cels:
+  - sprite: {fileID: -1343498105, guid: 7bf40d77b8d311e498401d6f93f62dbf, type: 3}
+    drivers:
+      keys: []
+      values: 
+  - sprite: {fileID: 2099658451, guid: 7bf40d77b8d311e498401d6f93f62dbf, type: 3}
+    drivers:
+      keys: []
+      values: 
+  - sprite: {fileID: 1864497818, guid: 7bf40d77b8d311e498401d6f93f62dbf, type: 3}
+    drivers:
+      keys: []
+      values: 
+  - sprite: {fileID: -567631591, guid: 7bf40d77b8d311e498401d6f93f62dbf, type: 3}
+    drivers:
+      keys: []
+      values: 
+  - sprite: {fileID: 802247017, guid: 7bf40d77b8d311e498401d6f93f62dbf, type: 3}
+    drivers:
+      keys:
+      - state
+      values: 00000000
+  controlDriver:
+    name: attackCompletion
+    autoIncrement: 0
+    percentageBased: 1
+    guid: c75812f6-50b5-4bbb-ba35-67a60cdd8bb2
+  drivers:
+    keys: []
+    values: 

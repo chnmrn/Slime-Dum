@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f1da0b6abdb7d45aa4315eccab639b, type: 3}
+  m_Name: hurt_animation
+  m_EditorClassIdentifier: 
+  cels:
+  - sprite: {fileID: -1726922523, guid: 362b8c19cbdfd804986fc7fdefefde5e, type: 3}
+    drivers:
+      keys: []
+      values: 
+  - sprite: {fileID: -306830748, guid: 362b8c19cbdfd804986fc7fdefefde5e, type: 3}
+    drivers:
+      keys: []
+      values: 
+  - sprite: {fileID: 410099593, guid: 362b8c19cbdfd804986fc7fdefefde5e, type: 3}
+    drivers:
+      keys: []
+      values: 
+  - sprite: {fileID: 1397046705, guid: 362b8c19cbdfd804986fc7fdefefde5e, type: 3}
+    drivers:
+      keys:
+      - idleTransition
+      values: 00000000
+  controlDriver:
+    name: hitDirection
+    autoIncrement: 0
+    percentageBased: 0
+    guid: c75812f6-50b5-4bbb-ba35-67a60cdd8bb2
+  drivers:
+    keys: []
+    values: 

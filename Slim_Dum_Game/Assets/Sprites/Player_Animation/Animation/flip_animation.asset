@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f1da0b6abdb7d45aa4315eccab639b, type: 3}
+  m_Name: flip_animation
+  m_EditorClassIdentifier: 
+  cels:
+  - sprite: {fileID: -491504847, guid: 9d69ae98725365b4b94189120dc1b40a, type: 3}
+    drivers:
+      keys: []
+      values: 
+  - sprite: {fileID: 960735363, guid: 9d69ae98725365b4b94189120dc1b40a, type: 3}
+    drivers:
+      keys: []
+      values: 
+  - sprite: {fileID: -2047458511, guid: 9d69ae98725365b4b94189120dc1b40a, type: 3}
+    drivers:
+      keys: []
+      values: 
+  - sprite: {fileID: -1659892576, guid: 9d69ae98725365b4b94189120dc1b40a, type: 3}
+    drivers:
+      keys: []
+      values: 
+  - sprite: {fileID: 1424968923, guid: 9d69ae98725365b4b94189120dc1b40a, type: 3}
+    drivers:
+      keys: []
+      values: 
+  controlDriver:
+    name: flipCompletion
+    autoIncrement: 0
+    percentageBased: 1
+    guid: 1d8062b7-da6b-4532-b420-519ec584b75c
+  drivers:
+    keys: []
+    values: 

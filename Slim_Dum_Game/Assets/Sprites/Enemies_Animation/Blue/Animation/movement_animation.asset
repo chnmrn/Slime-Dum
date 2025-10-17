@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f1da0b6abdb7d45aa4315eccab639b, type: 3}
+  m_Name: movement_animation
+  m_EditorClassIdentifier: 
+  cels:
+  - sprite: {fileID: 1614243722, guid: b8c97f1b48d71cc43afa81bb9cd99783, type: 3}
+    drivers:
+      keys: []
+      values: 
+  - sprite: {fileID: -1734232087, guid: b8c97f1b48d71cc43afa81bb9cd99783, type: 3}
+    drivers:
+      keys: []
+      values: 
+  - sprite: {fileID: 1078833553, guid: b8c97f1b48d71cc43afa81bb9cd99783, type: 3}
+    drivers:
+      keys:
+      - stepEvent
+      values: 00000000
+  - sprite: {fileID: 2120544125, guid: b8c97f1b48d71cc43afa81bb9cd99783, type: 3}
+    drivers:
+      keys: []
+      values: 
+  - sprite: {fileID: 1519615576, guid: b8c97f1b48d71cc43afa81bb9cd99783, type: 3}
+    drivers:
+      keys: []
+      values: 
+  controlDriver:
+    name: run
+    autoIncrement: 1
+    percentageBased: 0
+    guid: cc5b7023-4f3a-4add-a41a-83f6bd1fbc3d
+  drivers:
+    keys:
+    - idleTransition
+    values: 01000000

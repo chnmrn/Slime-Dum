@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProject", "AstarPathfindingProject.csproj", "{5936FB71-CA88-8BDA-33CF-B6979BA79B4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{9C673F93-FB50-702C-4E8F-2935C9ADAAE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Reanimation", "Unity.Reanimation.csproj", "{DB4E9136-4D0F-1202-558F-CEB1F897419D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Reanimation.Tests", "Unity.Reanimation.Tests.csproj", "{3F78CDB3-F55F-0443-0500-4D48F691C39F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Reanimation.Editor", "Unity.Reanimation.Editor.csproj", "{45025A8F-42EC-8F3C-B5A9-652346D58910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProjectEditor", "AstarPathfindingProjectEditor.csproj", "{590F6484-E1D4-8491-0E43-484CB00F00E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageToolsEditor", "PackageToolsEditor.csproj", "{5E7257BE-263D-6D32-18C1-D81D71233C38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE0C90C7-F200-401D-8083-792A08221A85}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5936FB71-CA88-8BDA-33CF-B6979BA79B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5936FB71-CA88-8BDA-33CF-B6979BA79B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5936FB71-CA88-8BDA-33CF-B6979BA79B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5936FB71-CA88-8BDA-33CF-B6979BA79B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C673F93-FB50-702C-4E8F-2935C9ADAAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C673F93-FB50-702C-4E8F-2935C9ADAAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C673F93-FB50-702C-4E8F-2935C9ADAAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C673F93-FB50-702C-4E8F-2935C9ADAAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB4E9136-4D0F-1202-558F-CEB1F897419D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4E9136-4D0F-1202-558F-CEB1F897419D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4E9136-4D0F-1202-558F-CEB1F897419D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4E9136-4D0F-1202-558F-CEB1F897419D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F78CDB3-F55F-0443-0500-4D48F691C39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F78CDB3-F55F-0443-0500-4D48F691C39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F78CDB3-F55F-0443-0500-4D48F691C39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F78CDB3-F55F-0443-0500-4D48F691C39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45025A8F-42EC-8F3C-B5A9-652346D58910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45025A8F-42EC-8F3C-B5A9-652346D58910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45025A8F-42EC-8F3C-B5A9-652346D58910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45025A8F-42EC-8F3C-B5A9-652346D58910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{590F6484-E1D4-8491-0E43-484CB00F00E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590F6484-E1D4-8491-0E43-484CB00F00E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590F6484-E1D4-8491-0E43-484CB00F00E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590F6484-E1D4-8491-0E43-484CB00F00E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7257BE-263D-6D32-18C1-D81D71233C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7257BE-263D-6D32-18C1-D81D71233C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7257BE-263D-6D32-18C1-D81D71233C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7257BE-263D-6D32-18C1-D81D71233C38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
